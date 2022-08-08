@@ -8,11 +8,12 @@ MOUSEKEY_ENABLE = yes
 TAP_DANCE_ENABLE = no
 CAPS_WORD_ENABLE = yes         # Enable built-in Caps Word functionality
 IDLE_TIMEOUT_ENABLE = yes
-STARTUP_NUMLOCK_ON = yes
+STARTUP_NUMLOCK_ON = no
 ENCODER_DEFAULTACTIONS_ENABLE = no
 COLEMAK_LAYER_ENABLE = yes     # Enable Colemak layer / set to no to disable
 INVERT_NUMLOCK_INDICATOR = yes
-GAME_ENABLE ?= yes             # Enable Paddle Game / set to no to disable
+GAME_ENABLE ?= no             # Enable Paddle Game / set to no to disable
+NKRO_ENABLE = no
 ifeq ($(strip $(GAME_ENABLE)), yes)
     OPT_DEFS += -DGAME_ENABLE
 endif
