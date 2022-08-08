@@ -11,7 +11,7 @@ IDLE_TIMEOUT_ENABLE = yes
 STARTUP_NUMLOCK_ON = no
 ENCODER_DEFAULTACTIONS_ENABLE = no
 COLEMAK_LAYER_ENABLE = yes     # Enable Colemak layer / set to no to disable
-INVERT_NUMLOCK_INDICATOR = yes
+INVERT_NUMLOCK_INDICATOR = no
 GAME_ENABLE ?= no             # Enable Paddle Game / set to no to disable
 NKRO_ENABLE = no
 ifeq ($(strip $(GAME_ENABLE)), yes)
